@@ -1,0 +1,197 @@
+body {
+	background-color: #0C1019;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.seccioncero{
+	margin-top: -75px;
+	display: grid;
+}
+
+.seccionuno{
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 2fr 1fr; 
+    grid-template-rows: 3fr 1fr;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.secciondos{
+	background-color: white;
+	color: #0C1019;
+}
+
+.secciontres{
+	padding-top: 15px;
+	color: white;
+}
+
+
+.flex {
+	display: flex;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.center {
+	justify-content: center;
+}
+
+.logositio {
+	width: 250px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.dropdown{
+	padding-left: 35px;
+}
+
+.divuno{
+	padding: 30px;
+}
+a {
+	outline: none;
+ 	text-decoration: none;
+ 	padding: 2px 1px 0;
+ 	font-size: 20px;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:focus {
+	border-bottom: 1px solid;
+	background: white;
+}
+
+a:hover {
+	border-bottom: 2px solid;
+	background: white;
+	color: #e03e60;
+}
+
+a:active {
+	background: white;
+	color: #e03e60;
+}
+
+.menus {
+	font-family: 'Ubuntu', sans-serif
+	background-color: white;
+	color: #e03e60;
+	text-align: center;
+	list-style: none;
+	font-size: 10px;
+	margin: 30px;
+}
+
+.menus li {
+	display: inline-block;
+	width: 15%;
+	position: relative;
+	font-size: 14px;
+}
+
+.menus ul {
+	position: absolute;
+	display: none;
+}
+
+.menus ul li {
+	display: block;
+}
+
+.menus li:hover ul {
+	display: block;
+}
+
+#imagen1 {
+	width: 500px;
+}
+
+#imagen2 {
+	width: 10px;
+}
+
+.footeruno {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+.logofooter {
+	padding-top: 15px;
+}
+
+.tablauno {
+	color: white;
+}
+.titulosh2{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.titulosh3{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.titulosecdos{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.titulosh2:hover{
+	transform: scale(1.025, 1.025);
+	color: #e03e60;
+	background-color: white; 
+}
+
+.parrafos{
+	color: white;
+	padding: 25px;
+}
+
+.botoncontacto{
+	padding: 35px;
+}
+
+.contactform{
+	color: white;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+.contactform2{
+	color: black;
+}
+ol{
+	color: white;
+}
+.iconosocial{
+	width: 100px;
+	margin: 15px 15px 15px 15px;
+	padding: 25px 25px 25px 25px;
+}
+.iconosocial:hover {
+	transform: scale(1.25, 1.25);
+}
+
+.socialmedia{
+	background-color: white;
+}
+
